@@ -38,6 +38,15 @@ export default defineUserConfig({
                 }
             ]
         }
+      {
+            text: '大数据2',
+            children:[
+                {
+                    text: '大数据',
+                    link: '/大数据2/大数据.html',
+                }
+            ]
+        }
     ]
   }),
 })
