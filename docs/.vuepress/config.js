@@ -37,15 +37,6 @@ export default defineUserConfig({
                     link: '/前端/js.html',
                 }
             ]
-        },
-      {
-            text: '大数据2',
-            children:[
-                {
-                    text: '大数据',
-                    link: '/大数据2/大数据.html',
-                }
-            ]
         }
     ]
   }),
