@@ -1,32 +1,69 @@
-# java script
+## 基础配置
 
-### 函数
+### 配置hosts
 
-```jsx
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <script>
-        function getMax(arr = []){
-            let max = 0
-            for(let i =0; i < arr.length; i++){
-                max = max > arr[i] ? max : arr[i]
-            }
-            return max
-        }
+打开hosts文件写入以下内容（三台都需要）
 
-        function getMin(){}
+```bash
+sudo vim /etc/hosts 
+```
 
-        let arr = [1,2,3,5]
-        let max  = getMax(arr)
-        alert(max)
-    </script>
-</body>
-</html>
+```bash
+192.168.184.130 master1-1
+192.168.184.131 slave1-1
+192.168.184.132 slave1-2
+```
+
+### 配置ssh免密
+
+生成密钥，并对本机进行免密
+
+```bash
+ssh-keygen
+ssh-copy-id ubuntu@master1-1
+ssh-copy-id ubuntu@slave1-1
+ssh-copy-id ubuntu@slave1-2
+```
+
+分发给其他主机（每台主机都需要这样）
+
+```bash
+ssh-copy-id ubuntu@master1-1
+ssh-copy-id ubuntu@slave1-1
+ssh-copy-id ubuntu@slave1-2
+```
+
+## 配置JAVA_HOME
+
+### 解压jdk文件
+
+```bash
+sudo tar -zxvf jdk-8u291-linux-x64.tar.gz -C /usr/local/src/
+```
+
+### 打开bashrc文件，
+
+```bash
+sudo vim ~/.bashrc
+```
+
+### 写入以下内容
+
+```bash
+#JAVA_HOME
+export JAVA_HOME=/usr/local/src/jdk8
+export PATH=$JAVA_HOME/bin:$PATH
+```
+
+### 配置完成后需要source一下使其生效
+
+```bash
+source ~/.bashrc
+```
+
+### 配置完成后分发给另外两台
+
+```bash
+scp ~/.bashrc ubuntu@slave1-1
+scp ~/.bashrc ubuntu@slave1-2
 ```
