@@ -52,6 +52,10 @@ export default defineUserConfig({
                 {
                     text: 'zookeeper',
                     link: '/大数据2/zookeeper.html',
+                },
+                {
+                    text: 'Hadoop',
+                    link: '/大数据2/Hadoop.html',
                 }
                 
             ]
