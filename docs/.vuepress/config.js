@@ -42,9 +42,18 @@ export default defineUserConfig({
             text: '大数据2',
             children:[
                 {
+                text: '命令小技巧',
+                link: '/大数据2/命令小技巧.html',
+                },
+                {
                     text: '基础配置',
                     link: '/大数据2/基础配置.html',
+                },
+                {
+                    text: 'zookeeper',
+                    link: '/大数据2/zookeeper.html',
                 }
+                
             ]
         }
     ]
