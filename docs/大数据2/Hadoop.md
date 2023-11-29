@@ -16,7 +16,7 @@ vim /opt/hadoop/hadoop-2.6.0/etc/hadoop-env.sh
 export JAVA_HOME=export JAVA_HOME=/usr/local/src/jdk8
 ```
 
-## 修改core-site.xml配置文件
+### 修改core-site.xml配置文件
 
 ```bash
 vim core-site.xml
@@ -47,7 +47,7 @@ core-site.xml文件主要配置Hadoop的公有属性，具体需要配置的每�
 </configuration>
 ```
 
-## 修改hdfs-site.xml配置文件
+### 修改hdfs-site.xml配置文件
 
 hdfs-site.xml文件主要配置和HDFS相关的属性，具体需要配置的
 每个属性的注释如下所示。
@@ -154,7 +154,7 @@ hdfs-site.xml文件主要配置和HDFS相关的属性，具体需要配置的
 
 ```
 
-## 配置slaves文件
+### 配置slaves文件
 
         slaves文件主要根据集群规划配置DataNode节点所在的主机名，
 具体操作如下所示。
