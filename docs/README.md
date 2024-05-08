@@ -1,6 +1,6 @@
 ---
 home: true
-heroText: 御坂网络
+heroText: 兮梦
 heroImage: /logo.png
 heroHeight: 80
 tagline: Notebook
