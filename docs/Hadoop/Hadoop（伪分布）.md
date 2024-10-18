@@ -1,4 +1,4 @@
-# 大数据（LoongArch64）
+# 大数据
 
 # 开发环境
 
@@ -45,6 +45,7 @@ su hadoop
 从[https://mirrors.tuna.tsinghua.edu.cn)下载最新版本java8
 
 ```bash
+# 切换到/usr/local目录
 cd /usr/local
 # 下载
 wget https://mirrors.tuna.tsinghua.edu.cn/Adusrium/8/jdk/x64/linux/OpenJDK8U-jdk_x64_linux_hotspot_8u422b05.tar.gz
@@ -64,6 +65,28 @@ export PATH=$PATH:$JAVA_HOME/bin
 ```
 
 ## Hadoop
+
+
+### 配置ssh免密
+```bash
+#生成密钥
+ssh-keygen -t rsa
+#将公钥写入authorized_keys
+cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
+```
+
+### 修改hosts文件
+```bash
+vim /etc/hosts
+192.168.1.101 hadoop01
+192.168.1.102 hadoop02
+192.168.1.103 hadoop03
+```
+
+### 修改主机名称
+```bash
+hostnamectl set-hostname hadoop01
+```
 
 ### 获取安装
 
@@ -91,9 +114,6 @@ export HADOOP_HOME=/usr/local/hadoop
 export PATH=$PATH:$HADOOP_HOME/bin:$HADOOP_HOME/sbin
 
 ```
-
-### 环境变量
-
 
 ### 配置文件
 
