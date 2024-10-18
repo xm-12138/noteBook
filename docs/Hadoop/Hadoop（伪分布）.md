@@ -30,13 +30,13 @@ hadoop  ALL=(ALL)       ALL
 ```
 
 
-创建文件夹并设置权限
+切换至hadoop用户
 
 ```bashrc
-
-
 su hadoop
 ```
+
+
 
 此后目录默认在 `/usr/local`
 
@@ -45,7 +45,7 @@ su hadoop
 从[https://mirrors.tuna.tsinghua.edu.cn)下载最新版本java8
 
 ```bash
-cd software
+cd /usr/local
 # 下载
 wget https://mirrors.tuna.tsinghua.edu.cn/Adusrium/8/jdk/x64/linux/OpenJDK8U-jdk_x64_linux_hotspot_8u422b05.tar.gz
 # 解压
@@ -94,11 +94,6 @@ export PATH=$PATH:$HADOOP_HOME/bin:$HADOOP_HOME/sbin
 
 ### 环境变量
 
-编辑 `~/.bashrc` 添加以下内容
-
-```bash
-
-```
 
 ### 配置文件
 
@@ -160,6 +155,12 @@ hadoop03
 # JAVA
 export JAVA_HOME=/usr/local/jdk8
 ```
+
+创建tmp临时目录
+```bash
+mkdir -p /usr/local/hadoop/tmp
+```
+
 
 
 格式化NameNode
