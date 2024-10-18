@@ -13,15 +13,6 @@ export default defineUserConfig({
             link: '/'
         },
         {
-            text: '前端',
-            children:[
-                {
-                    text: 'js',
-                    link: '/前端/js.html',
-                }
-            ]
-        },
-        {
             text: '大数据',
             children:[
                 {
@@ -36,6 +27,15 @@ export default defineUserConfig({
                     text:'数据分析',
                     link: '/大数据/数据分析.html',
                 },
+            ]
+        },
+        {
+            text: '前端',
+            children:[
+                {
+                    text: 'js',
+                    link: '/前端/js.html',
+                }
             ]
         },
         {
@@ -61,15 +61,17 @@ export default defineUserConfig({
             ]
         },
         {
-            text: '游戏',
+            text: 'Hadoop',
             children:[
                 {
-                    text:'帕鲁',
-                    link: '/游戏/帕鲁.html',
-                },
+                text: 'Hadoop(伪分布)',
+                link: '/Hadoop/Hadoop（伪分布）.html',
+                }
+                
             ]
         }
 
+        
     ]
   }),
 })
