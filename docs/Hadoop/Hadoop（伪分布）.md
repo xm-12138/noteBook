@@ -4,13 +4,7 @@
 
 # #设置静态IP
 
-命令行界面文件在 /etc/netploy/ 下
-
-```bash
-hadoop01 192.168.1.101
-hadoop02 192.168.1.102
-hadoop03 192.168.1.103
-```
+命令行界面文件在 /etc/netploy/ 下   图形化界面直接修改
 
 ## 用户权限
 
@@ -87,7 +81,7 @@ cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
 
 ### 修改hosts文件
 ```bash
-vim /etc/hosts
+sudo vim /etc/hosts
 192.168.1.101 hadoop01
 192.168.1.102 hadoop02
 192.168.1.103 hadoop03

@@ -66,12 +66,16 @@ export default defineUserConfig({
                 {
                 text: 'Hadoop(伪分布)',
                 link: '/Hadoop/Hadoop（伪分布）.html',
+                },
+                {
+                    text: 'Hadoop(集群)',
+                    link: '/Hadoop/Hadoop（集群）.html',
                 }
                 
             ]
         }
 
-        
+
     ]
   }),
 })
