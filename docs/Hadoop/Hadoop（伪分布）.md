@@ -55,6 +55,8 @@ cd /usr/local
 wget https://mirrors.tuna.tsinghua.edu.cn/Adusrium/8/jdk/x64/linux/OpenJDK8U-jdk_x64_linux_hotspot_8u422b05.tar.gz
 # 解压
 tar -zxvf java的文件名
+# 修改解压后的文件名
+mv 原文件名 jdk8
 # 删除压缩包
 rm -rf java的文件名
 ```
@@ -101,7 +103,7 @@ wget https://mirrors.tuna.tsinghua.edu.cn/apache/hadoop/common/hadoop-3.3.5/hado
 # 解压
 tar -zxvf hadoop-3.3.5.tar.gz
 
-#修改解压后的文件名
+# 修改解压后的文件名
 mv 原文件名 hadoop
 
 # 删除压缩包
