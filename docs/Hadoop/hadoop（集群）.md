@@ -1,6 +1,3 @@
-```markdown
-
-```
 
 # **在伪分布的基础上进行集群部署**
 
@@ -60,6 +57,31 @@
   </property>
 
 ```
+
+## 修改hosts文件
+删除其中的 127.0.1.1 hadoop01  （三台都需要删）
+```bash
+sudo vim /etc/hosts
+```
+
+
+## 修改hosstname
+在hadoop02机器中
+```bash
+sudo vim /etc/hostname
+```
+将内容改为：hadoop02
+
+
+
+在hadoop03机器中
+```bash
+sudo vim /etc/hostname
+```
+将内容改为：hadoop03
+
+
+
 
 ## 分发ssh密钥
 
