@@ -65,6 +65,7 @@ sudo vim /etc/hosts
 ```
 
 
+
 ## 修改hosstname
 在hadoop02机器中
 ```bash

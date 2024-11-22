@@ -65,7 +65,7 @@ export default defineUserConfig({
             children:[
                 {
                 text: 'Linux命令基础',
-                link: 'https://www.runoob.com/linux/linux-tutorial.html',
+                link: 'https://www.runoob.com/linux/linux-command-manual.html',
                 },
                 {
                 text: 'Hadoop(伪分布)',
