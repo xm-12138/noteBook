@@ -46,7 +46,7 @@ su hadoop
 
 ## 安装Java
 
-从[https://mirrors.tuna.tsinghua.edu.cn)下载最新版本java8
+从(https://mirrors.tuna.tsinghua.edu.cn)下载最新版本java8
 
 ```bash
 # 切换到/usr/local目录
@@ -61,8 +61,8 @@ mv 原文件名 jdk8
 rm -rf java的文件名
 ```
 
-编辑 `~/.bashrc` 添加以下内容
-vim ~/.bashrc
+编辑~/.bashrc添加以下内容
+ `vim ~/.bashrc` 
 
 ```bash
 # JAVA
@@ -111,7 +111,6 @@ rm -rf hadoop-3.3.5.tar.gz
 ```
 
 编辑 ~/.bashrc 添加内容
-
  `vim ~/.bashrc` 
 
 ```bash
@@ -124,7 +123,6 @@ export PATH=$PATH:$HADOOP_HOME/bin:$HADOOP_HOME/sbin
 ### 配置文件
 
 编辑core-site.xml文件
-
  `vim /usr/local/hadoop/etc/hadoop/core-site.xml` 
 
 ```xml
@@ -169,7 +167,7 @@ export PATH=$PATH:$HADOOP_HOME/bin:$HADOOP_HOME/sbin
 </configuration>
 ```
 
-在workers文件中添加
+在workers文件中添加以下内容
  `vim /usr/local/hadoop/etc/hadoop/workers` 
 
 ```bash
@@ -179,9 +177,9 @@ hadoop03
 ```
 
 
-在hadoop-env.sh中添加
+在hadoop-env.sh中添加以下内容
  `vim /usr/local/hadoop/etc/hadoop/hadoop-env.sh`
-  
+
 ```bash
 # JAVA
 export JAVA_HOME=/usr/local/jdk8
