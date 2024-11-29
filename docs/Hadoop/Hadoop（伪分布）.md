@@ -82,8 +82,8 @@ cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
 ```
 
 ### 修改hosts文件
+`sudo vim /etc/hosts`
 ```bash
-sudo vim /etc/hosts
 192.168.1.101 hadoop01
 192.168.1.102 hadoop02
 192.168.1.103 hadoop03
