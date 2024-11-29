@@ -64,7 +64,7 @@ export default defineUserConfig({
             text: 'Hadoop',
             children:[
                 {
-                text: 'Linux命令基础',
+                text: 'Linux命令大全',
                 link: 'https://www.runoob.com/linux/linux-command-manual.html',
                 },
                 {

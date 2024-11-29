@@ -110,9 +110,9 @@ mv 原文件名 hadoop
 rm -rf hadoop-3.3.5.tar.gz
 ```
 
-编辑 `~/.bashrc` 添加以下内容
+编辑 ~/.bashrc 添加内容
 
-vim ~/.bashrc
+ `vim ~/.bashrc` 
 
 ```bash
 # Hadoop
@@ -123,7 +123,9 @@ export PATH=$PATH:$HADOOP_HOME/bin:$HADOOP_HOME/sbin
 
 ### 配置文件
 
-core-site.xml `vim /usr/local/hadoop/etc/hadoop/core-site.xml` 
+编辑core-site.xml文件
+
+ `vim /usr/local/hadoop/etc/hadoop/core-site.xml` 
 
 ```xml
 <configuration>
@@ -147,7 +149,8 @@ core-site.xml `vim /usr/local/hadoop/etc/hadoop/core-site.xml`
 </configuration>
 ```
 
-hdfs-site.xml `vim /usr/local/hadoop/etc/hadoop/hdfs-site.xml`
+修改hdfs-site.xml文件
+ `vim /usr/local/hadoop/etc/hadoop/hdfs-site.xml`
 
 ```xml
 <configuration>
@@ -166,7 +169,8 @@ hdfs-site.xml `vim /usr/local/hadoop/etc/hadoop/hdfs-site.xml`
 </configuration>
 ```
 
-在 `vim /usr/local/hadoop/etc/hadoop/workers` 中添加
+在workers文件中添加
+ `vim /usr/local/hadoop/etc/hadoop/workers` 
 
 ```bash
 hadoop01
@@ -175,8 +179,9 @@ hadoop03
 ```
 
 
-在 `vim /usr/local/hadoop/etc/hadoop/hadoop-env.sh` 中添加
-
+在hadoop-env.sh中添加
+ `vim /usr/local/hadoop/etc/hadoop/hadoop-env.sh`
+  
 ```bash
 # JAVA
 export JAVA_HOME=/usr/local/jdk8
