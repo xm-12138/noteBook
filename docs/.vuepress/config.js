@@ -79,7 +79,7 @@ export default defineUserConfig({
                 children: [
                     {
                         text: '410wifi棒子刷机',
-                        link: '/410wifi棒子的折腾日记/410wifi棒子刷机.html',
+                        link: '/410wifi棒子的折腾日记/410wifi棒子的刷机.html',
                     },
                     {
                         text: 'HomeAssistant',
