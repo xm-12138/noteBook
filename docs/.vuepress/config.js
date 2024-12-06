@@ -87,6 +87,24 @@ export default defineUserConfig({
                     }
 
                 ]
+            },
+            {
+                text: '数据库',
+                children: [
+                    {
+                        text: '数据库课程设计',
+                        link: '/数据库/数据库课程设计.html',
+                    },
+                    {
+                        text: '每个表的字段解释',
+                        link: '/数据库/每个表的字段解释.html',
+                    },
+                    {
+                        text: '数据库字段插入',
+                        link: '/数据库/数据库字段插入.html',
+                    }
+
+                ]
             }
 
 
