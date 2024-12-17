@@ -70,6 +70,10 @@ export default defineUserConfig({
                     {
                         text: 'Hadoop(集群)',
                         link: '/Hadoop/Hadoop（集群）.html',
+                    },
+                    {
+                        text: '大作业（美国疫情分析）',
+                        link: '/Hadoop/大作业（美国疫情分析）.html',
                     }
 
                 ]
