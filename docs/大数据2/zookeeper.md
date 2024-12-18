@@ -16,7 +16,7 @@ cp zoo_sample.cfg zoo.cfg
 创建数据目录和日志目录（三台都需要创建）
 
 ```bash
-mkdir -p /opt/zookceper/zkdata
+mkdir -p /opt/zookeeper/zkdata
 mkdir -p /opt/zookeeper/zkdatalog
 ```
 
@@ -33,14 +33,14 @@ initLimit=10
 syncLimit=5
 
 数据目录需婴提前创建
-dataDir=/opt/zookceper/zkdata
+dataDir=/opt/zookeeper/zkdata
 #日志日录需要提前创建
-dataLogDir=/opt/zkdatalog
+dataLogDir=/opt/zookeeper/zkdatalog
 
 #访问瑞口号
-clieatPort=2181
+clientPort=2181
 #server,每个节点服务编号-服务器IP地址:集群通信端口,选举编口
-server.l=master1-1:2888:3888
+server.1=master1-1:2888:3888
 server.2=slave1-1:2888:3888
 server.3=slave1-2:2888:3888
 ```
