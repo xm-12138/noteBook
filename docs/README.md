@@ -10,8 +10,8 @@ tagline: Notebook
 # actionText: 立即开始 ->
 # actionLink: /
 actions:
-  - text: Getting Started
-    link: /
+  - text: 添加微信
+    link: /img/wxhy.jpg
     type: primary
 features:
   - title: 123
