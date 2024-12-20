@@ -3,10 +3,7 @@ home: true
 heroText: 兮梦
 heroImage: /logo.png
 heroHeight: 80
-tagline: Total <span id="busuanzi_value_site_pv"></span> views.
-您是本站的第<span id="busuanzi_value_site_uv"></span>个小伙伴
-<span id="busuanzi_value_page_pv"></span> Hits
-
+tagline: Notebook
 
 
 # actionText: 立即开始 ->

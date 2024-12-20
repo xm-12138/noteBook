@@ -1,9 +1,16 @@
 import { defineUserConfig, defaultTheme } from 'vuepress'
+
 export default defineUserConfig({
     lang: 'zh-CN',
     title: '兮梦',
-    head: [['link', { rel: 'icon', href: '/logo.png' }]],
-    //   base:'notebook',
+    head: [
+        ['link', { rel: 'icon', href: '/logo.png' }],
+        ['script', {}, `
+            var busuanziValueSitePv = document.createElement('script');
+            busuanziValueSitePv.src = 'https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js';
+            document.head.appendChild(busuanziValueSitePv);
+        `]
+    ],
     description: 'Notebook',
     theme: defaultTheme({
         logo: '/logo.png',
@@ -27,8 +34,6 @@ export default defineUserConfig({
                         text: '数据分析',
                         link: '/大数据/数据分析.html',
                     },
-
-
                     {
                         text: '命令小技巧',
                         link: '/大数据2/命令小技巧.html',
@@ -110,8 +115,6 @@ export default defineUserConfig({
 
                 ]
             }
-
-
         ]
     }),
 })
