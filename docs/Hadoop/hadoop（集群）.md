@@ -3,43 +3,43 @@
 
 ## **克隆虚拟机**
 
-<img src="../img/1.png" alt="1" style="zoom:50%;" />
+<img src="../img/hadoop(分布式)/1.png" alt="1" style="zoom:50%;" />
 
 
-<img src="../img/2.png" alt="2" style="zoom:50%;" />
+<img src="../img/hadoop(分布式)/2.png" alt="2" style="zoom:50%;" />
 
 
-<img src="../img/3.png" alt="3" style="zoom:50%;" />
+<img src="../img/hadoop(分布式)/3.png" alt="3" style="zoom:50%;" />
 
 这里的目录选择自己的储存位置
 
 
-<img src="../img/4.png" alt="4" style="zoom:50%;" />
+<img src="../img/hadoop(分布式)/4.png" alt="4" style="zoom:50%;" />
 
 ## 更新网卡信息
 
 
-<img src="../img/5.png" alt="5" style="zoom:50%;" />
+<img src="../img/hadoop(分布式)/5.png" alt="5" style="zoom:50%;" />
 
 点击高级
 
 
-<img src="../img/6.png" alt="6" style="zoom:50%;" />
+<img src="../img/hadoop(分布式)/6.png" alt="6" style="zoom:50%;" />
 
 点击生成
 
 ## 修改VM ware  DHCP设置
 
 
-<img src="../img/7.png" alt="7" style="zoom:50%;" />
+<img src="../img/hadoop(分布式)/7.png" alt="7" style="zoom:50%;" />
 点击虚拟网络编辑器
 
 
-<img src="../img/8.png" alt="8" style="zoom:50%;" />
+<img src="../img/hadoop(分布式)/8.png" alt="8" style="zoom:50%;" />
 点击右下角更改设置后才能点击  DHCP设置
 
 
-<img src="../img/9.png" alt="9" style="zoom:50%;" />
+<img src="../img/hadoop(分布式)/9.png" alt="9" style="zoom:50%;" />
 
 改成这个样子（注意左下角的子网IP也需要更改）
 

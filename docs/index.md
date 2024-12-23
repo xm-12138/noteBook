@@ -11,8 +11,17 @@ tagline: Notebook
 # actionLink: /
 actions:
   - text: 我的主页
-    link: ximeng.asia
+    link: 'ximeng.asia'
     type: primary
+features:
+  - title: 备用
+    details: 暂未开发
+
+
+  # - title: 123
+  #   details: 111
+  # - title: 123
+  #   details: 111
 
   
 footer: MIT Licensed | Copyright © 2021-present xm

@@ -17,7 +17,7 @@ export default defineUserConfig({
         navbar: [
             {
                 text: '主页',
-                link: '/'
+                link: '/index.html'
             },
             {
                 text: '大数据',
