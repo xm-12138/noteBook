@@ -11,7 +11,7 @@ tagline: Notebook
 # actionLink: /
 actions:
   - text: 我的主页
-    link: 'https://ximeng.asia'
+    link: https://ximeng.asia
     type: primary
 features:
   - title: 备用
