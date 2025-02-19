@@ -19,6 +19,7 @@ sudo apt install unzip
 # 从阿里云私有仓库拉取镜像
 
 根据cpu架构不同选择不同的镜像以下是arm架构的链接
+## （拉取镜像时注意版本）
 
 https://cr.console.aliyun.com/repository/cn-hangzhou/ximeng-images/aarch64-homeassistant/details
 
@@ -40,7 +41,7 @@ docker run -d \
   homeassistant/home-assistant
 ```
 
-`-v /data/homeassistant:/config`这一项需要根据自己实际情况修改，即把自己物理机某文件夹挂载到容器内，我是建了个文件夹`/data/homeassistant`来存放HA的文件
+`-v /data/homeassistant:/config`这一项需要根据自己实际情况修改，即把自己物理机某文件夹挂载到容器内（将物理机的`/data/homeassistant`挂载到容器的`/config`目录下），我是建了个文件夹`/data/homeassistant`来存放HA的文件
 
 # 安装HACS
 
