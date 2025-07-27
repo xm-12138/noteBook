@@ -232,7 +232,7 @@ shutdown -s -t 0
 > 
 > **刷机教程参考:**
 > 
-> [给手机装Windows11！还能玩大型游戏？！](给手机装Windows11！还能玩大型游戏？！) BY B站up: [极客湾Geekerwan](https://space.bilibili.com/25876945)
+> [给手机装Windows11！还能玩大型游戏？！](【给手机装Windows11！还能玩大型游戏？！】 https://www.bilibili.com/video/BV1MU4y137Yi/?share_source=copy_web&vd_source=72b6bc2b37c12325f1e337f35ba934e2) BY B站up: [极客湾Geekerwan](https://space.bilibili.com/25876945)
 > 
 > [小米Mix2s刷WIN11+安卓双系统保姆级教程，已支持GPU，神器845！](https://www.bilibili.com/video/BV13L411b7oY) BY B站up: [左右先生-](https://space.bilibili.com/19323427)
 > 
