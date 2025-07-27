@@ -98,6 +98,16 @@ export default defineUserConfig({
                 ]
             },
             {
+                text: 'Windows on ARM',
+                children: [
+                    {
+                        text: '小米8刷win11教程',
+                        link: '/Windows on ARM/Windows on ARM.html',
+                    }
+
+                ]
+            },
+            {
                 text: '数据库',
                 children: [
                     {
