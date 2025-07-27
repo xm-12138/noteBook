@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-5a0e00c5","path":"/%E5%89%8D%E7%AB%AF/openwrt.html","title":"root @ OpenWrt in ~ [18:12:12]","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1729238619000,"contributors":[{"name":"xm-12138","email":"xm121381@163.com","commits":1}]},"filePathRelative":"前端/openwrt.md"}');export{t as data};
