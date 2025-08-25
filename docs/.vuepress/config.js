@@ -20,7 +20,7 @@ export default defineUserConfig({
             umamiScript.setAttribute('data-website-id', '1e35baf3-db8b-4c68-8c41-9c3e316f84a0');
             document.head.appendChild(umamiScript);
         `]
-    ]
+    ],
 
 
         
