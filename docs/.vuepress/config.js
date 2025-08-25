@@ -9,8 +9,21 @@ export default defineUserConfig({
             var busuanziValueSitePv = document.createElement('script');
             busuanziValueSitePv.src = 'https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js';
             document.head.appendChild(busuanziValueSitePv);
+        `],
+
+// 添加umami数据监控
+        
+        ['script', {}, `
+            var umamiScript = document.createElement('script');
+            umamiScript.src = 'http://fnos.ximeng.asia:3003/script.js';
+            umamiScript.defer = true;
+            umamiScript.setAttribute('data-website-id', '1e35baf3-db8b-4c68-8c41-9c3e316f84a0');
+            document.head.appendChild(umamiScript);
         `]
-    ],
+    ]
+
+
+        
     description: 'Notebook',
     theme: defaultTheme({
         logo: '/logo.png',
