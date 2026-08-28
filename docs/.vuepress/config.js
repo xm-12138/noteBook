@@ -106,7 +106,12 @@ export default defineUserConfig({
                     {
                         text: 'HomeAssistant',
                         link: '/410wifi棒子的折腾日记/HomeAssistant.html',
-                    }
+                    },
+		    {
+   	 	    	text: '小米BE3600开启SSH',
+    			link: '/410wifi棒子的折腾日记/小米BE3600开启SSH.html',
+		    }
+
 
                 ]
             },
