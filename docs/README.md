@@ -11,7 +11,7 @@ tagline: Notebook
 # actionLink: /
 actions:
   - text: 我的主页
-    link: ximeng.asia
+    link: siqk.asia
     type: primary
 
   
